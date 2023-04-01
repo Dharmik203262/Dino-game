@@ -1,0 +1,32 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+#back{
+    background-color: white;
+    border-bottom: 2px solid black;
+    position:relative;
+    top: 90px;
+   
+    
+
+    
+    
+}
+#track{
+    position: relative;
+    top: 10px;
+    left: -410px;
+    width:750px;
+    height: 20px;
+}
+#cloud{
+    position: absolute;
+    background-color: white;
+    top: 122px;
+    left: 590px;
+    
+}
+#image{
+    color: aliceblue;
+}

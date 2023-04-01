@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="login.css";>
+        
+</head>
+<style>
+  body{
+    background: url(dinosaur.webp) no-repeat;
+    background-size: 100% 185%;
+
+  }
+#hello {
+  position: relative;
+  color: rgb(245, 248, 248);
+  margin: 100px;
+  font-size: 100px;
+  font-family: "lora";
+  left: -20px;
+  text-shadow: 0px 4px 4px rgba(0,0,0,.25);
+}
+#play{
+  position: relative;
+  left: -20px;
+  width: 25%;
+  overflow: hidden;
+  padding: 6px 0px;
+  margin: 10px 0px;
+  border-bottom: 3px solid rgb(51, 13, 141);
+  border-top: 3px solid rgb(51, 13, 141);
+  border-radius: 30px;
+  font-size: 50px;
+  font-family: "roboto";
+  background-color: red;
+  transition: all,1s;
+  color: aliceblue;
+}
+#play:hover{
+  transform: scale(1.25);
+}
+</style>
+<body>
+  <center><div >
+       <p id="hello"><b>Hello user</b></p>
+       <button onclick="play()"  id="play">Play</button>
+  </div>
+    
+  </center>
+  
+  
+ 
+  
+  <script src="home.js"></script>
+</body>
+
+</html>

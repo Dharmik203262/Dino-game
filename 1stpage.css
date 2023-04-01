@@ -1,0 +1,126 @@
+
+.loginbox{
+    border: 3px solid rgb(0, 0, 0,.5);
+    position: relative;
+    top: 150px;
+    left: 550px;
+    box-sizing: border-box;
+    width: 400px;
+    height: 500px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.636);
+    
+    
+}
+h2{
+    position: relative;
+    top: 50px;
+    font-size: 30px;
+}
+  #pass{
+    position: relative;
+    left: 40px;
+    top: 100px;
+    color: black;
+    
+    
+  }  
+ #input{
+    position: relative;
+    top: 100px;
+    left: 40px;
+    color: black;
+    
+    
+    
+ }
+ #button1{
+      position: relative;
+      border-radius: 50px;
+      top: 175px;
+      border: 20px;
+      box-sizing: border-box;
+      width: 100px;
+      height: 50px;
+      left: -35px;
+      font: 1em sans-serif;
+      
+      font-size: 20px;
+      font-family: 'Courier New', Courier, monospace;
+      border-bottom: 3px solid rgb(51, 13, 141);
+      border-top: 3px solid rgb(51, 13, 141);
+      transition: all, 1s;
+      
+ }
+ .inputbox{
+  width: 80%;
+  overflow: hidden;
+  padding: 1px 0px;
+  margin: 4px 0px;
+  border-bottom: 3px solid rgb(51, 13, 141);
+  border-top: 3px solid rgb(51, 13, 141);
+  border-radius: 30px;
+  
+
+ }
+ .inputbox input {
+  border: none;
+  outline: none;
+  background: none;
+  color:black;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 10px;
+  font-style: bold;
+  transition: all, 1s;
+ }
+ ::-webkit-input-placeholder{
+  color: black;
+ }
+#button2{
+  position: relative;
+      border-radius: 50px;
+      top: 175px;
+      left: 20px;
+      border: 20px;
+      box-sizing: border-box;
+      width: 100px;
+      height: 50px;
+      
+      font: 1em sans-serif;
+      border-bottom: 3px solid rgb(51, 13, 141);
+      border-top: 3px solid rgb(51, 13, 141);
+      
+      font-size: 20px;
+      font-family: 'Courier New', Courier, monospace;
+      transition: all, 1s;
+      
+}
+ #rem{
+  position: relative;
+  top: 120px;
+  left: -80px;
+  font-size: 20px;
+  
+ }
+#button1:hover{
+  cursor: pointer;
+  background: rgba(85, 248, 85, 0.922);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  transform: scale(1.25);
+  
+}
+#button2:hover{
+  cursor: pointer;
+  background: rgba(211, 30, 30, 0.922);
+  color: white;
+  font-weight: bold;
+ transform: scale(1.25);
+}
+  .inputbox:hover{
+    cursor: pointer;
+    font-weight: bold;
+    transform: scale(1.25);
+  }
